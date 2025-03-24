@@ -1,21 +1,40 @@
-Zomato_Analysis
+# Zomato Data Analysis
 
-Conclusion: Key Findings & Insights from Zomato Restaurant Analysis Our analysis of Zomato restaurant data revealed several key insights into restaurant success factors, including location, restaurant type, pricing, features, and service availability.
+This project involves performing Exploratory Data Analysis (EDA) on Zomato's restaurant and review dataset to extract meaningful insights related to restaurant performance, customer ratings, cuisines, locations, and more. The objective is to understand restaurant trends, popular cuisines, rating patterns, and key factors influencing customer satisfaction.
 
+## Key Insights:
+- Analyzed restaurant distribution across different cities.
+- Identified the most popular cuisines based on customer ratings and reviews.
+- Investigated restaurant ratings and the factors affecting them (e.g., cost, location, cuisine).
+- Explored relationships between restaurant ratings and user reviews.
+- Identified trends in the availability of online ordering and delivery services.
 
--Key Findings
-1️⃣ City-Wise Rating Trends Bangalore (4.07) & Mumbai (4.00) have the highest-rated restaurants, possibly due to a rich food culture and better service quality. Smaller cities like Jabalpur (3.50) and Ajmer (3.55) have lower ratings, which could indicate fewer premium dining options.
+## Techniques Used:
+- **Data Cleaning**: Handled missing values, duplicates, and inconsistent data.
+- **Exploratory Data Analysis (EDA)**: Analyzed and visualized data to uncover patterns and trends.
+- **Visualization**: Used libraries like `matplotlib`, `seaborn`, and `plotly` to create insightful charts (e.g., bar charts, heatmaps, pie charts).
+- **Statistical Analysis**: Performed correlation and distribution analysis to understand the relationship between variables.
 
+## Data Overview:
+The dataset includes the following key features:
+- **Restaurant Name**: Name of the restaurant.
+- **City**: City where the restaurant is located.
+- **Cuisines**: List of cuisines offered by the restaurant.
+- **Rating**: Average user rating for the restaurant.
+- **Cost for Two**: Average cost for two people at the restaurant.
+- **Votes**: Number of votes received by the restaurant.
+- **Location**: Specific area or locality of the restaurant.
+- **Online Ordering**: Whether the restaurant offers online ordering and delivery.
 
-2️⃣ Restaurant Type Rating Trends Fine Dining (3.73) and Casual Dining (3.62) receive the highest ratings, showing a preference for sit-down experiences. Bakery (2.82) and Beverage Shops (2.86) have the lowest ratings, likely due to limited service or product variety.
-3️⃣ Impact of Features on Ratings Restaurants offering delivery have higher ratings (+0.57). Serving alcohol is linked to better ratings (+0.63), indicating that premium dining experiences perform well. Takeaway and outdoor seating have a mild positive impact, suggesting convenience matters to customers.
-4️⃣ Common Sentiments in Reviews Positive words include “Good” (128K mentions) and “Excellent” (15K mentions). Negative words include “Average” (42K mentions) and “Poor” (1.1K mentions). This suggests most restaurants receive moderate to positive feedback.
-Recommendations for Restaurant Owners & Zomato Users -For Restaurant Owners
-Focus on Quality Service – Fine dining and casual dining receive higher ratings, so improving service quality can help boost customer satisfaction.
-Offer Delivery Services – Restaurants with delivery services receive higher ratings, making this a key factor for success.
-Enhance Ambience & Experience – Outdoor seating and alcohol service positively impact ratings, so improving ambiance can attract more customers.
-Leverage Customer Reviews – Encourage satisfied customers to leave reviews, as positive sentiment is linked to higher ratings.
--For Zomato Users
-Fine Dining & Casual Dining Have the Best Ratings – If you're looking for a high-rated experience, prioritize these types.
-Check for Features Like Delivery & Outdoor Seating – These factors correlate with better ratings and convenience.
-Beware of Low-Rated Cities – If you're dining in smaller cities, look for well-rated restaurants to ensure a better experience.
+## Installation:
+To run this analysis, you will need to install the following dependencies:
+- Python 3.x
+- pandas
+- numpy
+- matplotlib
+- seaborn
+- plotly
+
+Install dependencies using the following command:
+```bash
+pip install -r requirements.txt
