@@ -1,6 +1,6 @@
 Zomato_Analysis
 
-Conclusion Conclusion: Key Findings & Insights from Zomato Restaurant Analysis Our analysis of Zomato restaurant data revealed several key insights into restaurant success factors, including location, restaurant type, pricing, features, and service availability.
+Conclusion: Key Findings & Insights from Zomato Restaurant Analysis Our analysis of Zomato restaurant data revealed several key insights into restaurant success factors, including location, restaurant type, pricing, features, and service availability.
 
 
 -Key Findings
